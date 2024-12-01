@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>YAY! It’s BOGO</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="lhr hr"></div>
+            <h1 class="heading">YAY! It’s BOGO</h1>
+            <div class="rhr hr"></div>
+        </header>
+
+        <section class="bundle-options">
+            <article class="pair-option">
+                <div class="inner-box order-summary-1">
+                    <div class="pair2-txt-cont">
+                        <div class="pair1-txt-box">
+                            <input type="radio" name="pair" id="pair1" onclick="showDiv('order-summary-1', 10.00)">
+                            <label for="pair1">
+                                <div class="unit-disc-wrap">
+                                    <h2 class="primary-txt">1 Unit </h2>
+                                    <div class="disc-text">10% OFF</div>
+                                </div>
+                                <p class="price primary-txt bold">Standard Price</p>
+                            </label>
+                        </div>
+                        <div class="price-text primary-txt bold">
+                            $10.00 USD
+                            <div class="old-price">
+                                <strike>$24.00 USD</strike>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-summary" id="order-summary-1" style="display:none;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th class="head head1">Size</th>
+                                    <th class="head">Colour</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="col1">#1</td>
+                                    <td>
+                                        <select class="col col2">
+                                            <option value="option1">S</option>
+                                            <option value="option1">6</option>
+                                            <option value="option2">8</option>
+                                            <option value="option3">10</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="col">
+                                            <option value="color1">Colour</option>
+                                            <option value="color1">Black</option>
+                                            <option value="color2">Brown</option>
+                                            <option value="color3">Blue</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </article>
+
+            <article class="pair-option pair-option2">
+                <div class="inner-box order-summary-2">
+                    <div class="popular-label">MOST POPULAR</div>
+                    <div class="pair2-txt-cont">
+                        <div class="pair1-txt-box">
+                            <input type="radio" name="pair" id="pair2" onclick="showDiv('order-summary-2', 18.00)">
+                            <label for="pair2">
+                                <div class="unit-disc-wrap">
+                                    <h2 class="primary-txt">2 Unit</h2>
+                                    <div class="disc-text">20% OFF</div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="price-text primary-txt bold">
+                            $18.00 USD
+                            <div class="old-price">
+                                <strike>$24.00 USD</strike>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-summary" id="order-summary-2" style="display:none;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th class="head head1">Size</th>
+                                    <th class="head">Colour</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="col1">#1</td>
+                                    <td>
+                                        <select class="col col2">
+                                            <option value="option1">S</option>
+                                            <option value="option1">6</option>
+                                            <option value="option2">8</option>
+                                            <option value="option3">10</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="col">
+                                            <option value="color1">Colour</option>
+                                            <option value="color1">Black</option>
+                                            <option value="color2">Brown</option>
+                                            <option value="color3">Blue</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1">#2</td>
+                                    <td>
+                                        <select class="col col2">
+                                            <option value="option1">S</option>
+                                            <option value="option1">6</option>
+                                            <option value="option2">8</option>
+                                            <option value="option3">10</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="col">
+                                            <option value="color1">Colour</option>
+                                            <option value="color1">Black</option>
+                                            <option value="color2">Brown</option>
+                                            <option value="color3">Blue</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </article>
+
+            <article class="pair-option">
+                <div class="inner-box order-summary-3">
+                    <div class="pair2-txt-cont">
+                        <div class="pair1-txt-box">
+                            <input type="radio" name="pair" id="pair3" onclick="showDiv('order-summary-3', 24.00)">
+                            <label for="pair3">
+                                <div class="unit-disc-wrap">
+                                    <h2 class="primary-txt">3 Unit</h2>
+                                    <div class="disc-text">30% OFF</div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="price-text primary-txt bold">
+                            $24.00 USD
+                            <div class="old-price">
+                                <strike>$24.00 USD</strike>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-summary" id="order-summary-3" style="display:none;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th class="head head1">Size</th>
+                                    <th class="head">Colour</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="col1">#1</td>
+                                    <td>
+                                        <select class="col col2">
+                                            <option value="option1">6</option>
+                                            <option value="option2">8</option>
+                                            <option value="option3">10</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="col">
+                                            <option value="color1">Black</option>
+                                            <option value="color2">Brown</option>
+                                            <option value="color3">Blue</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1">#2</td>
+                                    <td>
+                                        <select class="col col2">
+                                            <option value="option1">6</option>
+                                            <option value="option2">8</option>
+                                            <option value="option3">10</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="col">
+                                            <option value="color1">Black</option>
+                                            <option value="color2">Brown</option>
+                                            <option value="color3">Blue</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col1">#3</td>
+                                    <td>
+                                        <select class="col col2">
+                                            <option value="option1">6</option>
+                                            <option value="option2">8</option>
+                                            <option value="option3">10</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="col">
+                                            <option value="color1">Black</option>
+                                            <option value="color2">Brown</option>
+                                            <option value="color3">Blue</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="shipping-info">
+            <p class="shipping-txt shiptext">Free Delivery</p>
+            <p class="shipping-txt">Total: <span id="total">Total $0.00 USD</span></p>
+        </section>
+
+        <button class="addToCart-btn">+  Add to Cart</button>
+        <p class="copyright">&#169; Powered by Pumper</p>
+    </div>
+
+    <script>
+        function showDiv(divId, cost) {
+            // Hide all divs
+            const totalText = document.getElementById('total');
+            const divs = document.querySelectorAll('.order-summary');
+            divs.forEach(div => div.style.display = 'none');
+            
+            // Show the selected div and update the total cost
+            document.getElementById(divId).style.display = 'block';
+            totalText.innerHTML = `Total $${cost} USD`;
+        }
+    </script>
+</body>
+
+</html>
